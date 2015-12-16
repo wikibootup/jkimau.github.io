@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 자바스크립트를 이용한 인스타그램 API 접근과 사진 불러오기
-category: JavaScript
+title: 인스타그램 API 접근과 사진 불러오기
+category: javascript
 ---
 
 인스타그램에서 최근 내 사진들을 불러와 블로그나 사이트에 보여 주고자 하는데, 생각보다 은근 자세히 설명된 글을 찾기가 쉽지 않다. 대부분의 검색 결과에서는 인스타그램 피드 서비스를 제공해 주는 사이트만 나오지 실제 하드 코딩을 통한 API 접근 방식을 찾기가 어려웠다. 인스타그램 피드 서비스를 이용하는 것도 나쁘진 않지만 단점은 사진을 클릭했을 때 인스타그램 계정으로 이동하는것이 아니라 해당 서비스 사이트로 이동한다는 점이다. 이쁘지 않다.
@@ -21,9 +21,9 @@ category: JavaScript
 2. 상단 메뉴의 Manage Clients 메뉴를 통해 새로운 클라이언트 생성.
 3. Client ID와 Redirect URI를 이용해 다음 주소로 이동.
 
-<pre><code>
+```html
 https://instagram.com/oauth/authorize/?client_id=CLIENT-ID&amp;redirect_uri=REDIRECT-URI&amp;response_type=token  
-</code></pre>
+```
 
 <blockquote>위 코드에서 CLIENT-ID와 REDIRECT-URI부분을 자신의 ID와 URI로 수정한다.</blockquote>
 
