@@ -9,8 +9,7 @@ twitter_username: jimkimau
 github_username:  jkimau
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 kramdown:
   input: GFM
-
-highlighter: pygments
+  syntax_highlighter: rouge
