@@ -1,0 +1,16 @@
+# Site settings
+title: jkimau.github.io
+motto: 프론트엔드 Dev, 사진, 트래킹, 커피, 멜번
+email: jkim.au@gmail.com
+description: 프론트엔드 Dev, 사진, 트래킹, 커피, 멜번
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jkimau.github.io/" # the base hostname & protocol for your site
+twitter_username: jimkimau
+github_username:  jkimau
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+highlighter: pygments
