@@ -6,5 +6,6 @@
 
 > 특히, 멜번에 계시면 오며가며 커피 한 잔 대 환영입니다.
 
-* 트위터: <a href="https://twitter.com/jimkimau" target="_blank">@jimkimau</a>
+* [jkimau.github.io](http://jkimau.github.io/)
+* 트위터: [@jimkimau](https://twitter.com/jimkimau){:target="_blank"}
 * 이메일: [jkim.au@지메일닷컴](mailto:jkim.au@gmail.com)
