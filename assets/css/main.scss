@@ -32,7 +32,12 @@ $on-laptop:        800px;
 #share-post {
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+
+    .facebook-share {
+        position: relative;
+        top: -8px;
+    }
 }
 
 // Using media queries with like this:
